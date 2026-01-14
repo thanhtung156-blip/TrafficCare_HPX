@@ -1,0 +1,5 @@
+{
+  "name": "Hệ thống Theo dõi Phạt nguội Tự động",
+  "description": "Ứng dụng giúp người dùng theo dõi thông tin phạt nguội từ biển số xe, tự động kiểm tra định kỳ và gửi thông báo qua Email/Messenger.",
+  "requestFramePermissions": []
+}

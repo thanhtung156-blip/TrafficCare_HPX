@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - copilot/add-ci-flow-for-github-pages
   workflow_dispatch:
 
 permissions:
@@ -45,6 +46,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
+    if: github.ref == 'refs/heads/main'
     steps:
       - name: Deploy to GitHub Pages
         id: deployment

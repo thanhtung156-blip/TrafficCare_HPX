@@ -8,6 +8,8 @@ This contains everything you need to run your app locally.
 
 View your app in AI Studio: https://ai.studio/apps/drive/18XrZe40VyGCfT9MeBPr-GPLZev24RvRM
 
+**Live Demo on GitHub Pages**: https://thanhtung156-blip.github.io/TrafficCare_HPX/
+
 ## Run Locally
 
 **Prerequisites:**  Node.js
